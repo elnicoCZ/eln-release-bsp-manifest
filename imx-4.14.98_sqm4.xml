@@ -5,6 +5,11 @@
 
   <remote fetch="https://github.com/elnicoCZ" name="elnico"/>
 
+  <project remote="elnico" revision="sumo" name="meta-eln-bsp-release" path="sources/meta-eln-bsp-release" >
+     <linkfile src="eln-setup-release.sh" dest="eln-setup-release.sh"/>
+     <linkfile src="README" dest="README-SQM4"/>
+  </project>
+
   <project remote="elnico" revision="sumo" name="meta-elnico-sqm4" path="sources/meta-elnico-sqm4"/>
 
 </manifest>
