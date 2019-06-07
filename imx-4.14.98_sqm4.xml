@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <include name="imx-4.14.98-2.0.1_patch.xml"/>
+
+  <remote fetch="https://github.com/elnicoCZ" name="elnico"/>
+
+  <project remote="elnico" revision="sumo" name="meta-elnico-sqm4" path="sources/meta-elnico-sqm4"/>
+
+</manifest>
